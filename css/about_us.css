@@ -1,0 +1,164 @@
+.logo .tt{
+    width: 175px;
+    height: 78px;
+    margin-left: 75px;
+}
+.logo .tt img {
+    width: 100%;
+    height: 100%;
+}
+.navbar-expand-lg .navbar-collapse {
+    font-size: 17px;
+    padding-left: 189px;
+    font-weight: bold;
+}
+.navbar-nav .nav-item  {
+    padding-right: 27px;
+}
+/* navbar */
+.navbar
+{
+    background-color:#ffffff ;
+
+}
+.navbar-light .navbar-nav .nav-link
+{
+    color: black !important;
+}
+.navbar-light .navbar-nav  .active 
+{
+    color: #E8993B !important;
+}
+.navbar .navbar-brand {
+    text-align: right
+}
+/**********************
+/***** Services *******
+/*********************/
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section{
+    padding: 60px 0;
+    font-family: "Josefin Sans","HelveticaNeue","Changa","Helvetica Neue",sans-serif;
+}
+section .section-title{
+	text-align:center;
+    margin-bottom:50px;
+	text-transform:uppercase;
+}
+#what-we-do{
+	background:#ffffff;
+}
+#what-we-do .card{
+	padding: 1rem!important;
+	border: none;
+    margin-bottom:1rem;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+.card a 
+{
+    color: #606060;
+}
+#what-we-do .card:hover{
+	-webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	-moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+#what-we-do .card .card-block{
+	padding-left: 50px;
+    position: relative;
+}
+#what-we-do .card .card-block a{
+	color: #E8993B !important;
+	font-weight:700;
+	text-decoration:none;
+}
+#what-we-do .card .card-block a i{
+	display:none;
+	
+}
+#what-we-do .card:hover .card-block a i{
+	display:inline-block;
+	font-weight:700;
+	
+}
+#what-we-do .card .card-block:before{
+	font-family: FontAwesome;
+    position: absolute;
+    font-size: 39px;
+    color: #E8993B;
+    left: 0;
+	-webkit-transition: -webkit-transform .2s ease-in-out;
+    transition:transform .2s ease-in-out;
+}
+#what-we-do .card .block-1:before{
+    content: "\f0e7";
+}
+#what-we-do .card .block-2:before{
+    content: "\f0eb";
+}
+#what-we-do .card .block-3:before{
+    content: "\f00c";
+}
+#what-we-do .card .block-4:before{
+    content: "\f209";
+}
+#what-we-do .card .block-5:before{
+    content: "\f0a1";
+}
+#what-we-do .card .block-6:before{
+    content: "\f218";
+}
+#what-we-do .card:hover .card-block:before{
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);	
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+
+/* contact-us */
+.contact, .contact .text-center, .contact a{
+    background-color: #E9E9E9;
+    margin-top: 70px;
+    color:#606060;
+}
+.contact h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+.show2 .details .head p,.sections2 .details a .go p,.sections .details a .go p,.car1 .fadeInDown h3, .car2 .fadeInDown h3, .show1 .details .head .p, .show2 .details .head .p, .more_sale .details a .go .p,.navbar-light .navbar-nav .nav-link,.carousel-caption .fadeInDown h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact .links a{
+    text-decoration-style: solid
+}
+.contact .links a .t
+{
+margin-right: 10px}
+.contact a:hover   {
+    color: #606060b9;
+}
+.footer{
+    height: 73px;
+    background-color: #E9E9E9;
+}
+.footer .text-center{
+    background-color: #E9E9E9;
+
+}
+.footer:hover a,
+.footer a,
+.hamdy:hover a,
+.hamdy a{
+    color: #fe9d58;
+}
+.footer 
+{
+    
+    FONT-SIZE: 22px;
+    color: #ECA959;}
+    
